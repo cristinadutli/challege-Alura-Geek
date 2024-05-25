@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <title>AluraGeek</title>
+</head>
+<body>
+    <header class="menu__products">
+        <h1 class="menu__title">Alura Geek</h1>
+        <div class="logo__alura">                 
+            <img src="imagenes/corazones.png" alt="corazones">
+        </div>      
+    </header>
+    <main class="principal__main">        
+        <section class="products__section">
+            <h1 class="title">Mis productos</h1>
+            <div class="container__products" data-product>                   
+            </div>
+        </section>
+        <section class="formulario__section">
+            <h2>Agregar producto</h2>
+            <form class="conteiner__formulario" data-formulario>
+                <input data-name type="text" placeholder="Nombre...">
+                <input data-price type="text" placeholder="Precio...">
+                <input  data-image type="text" placeholder="Ingrese la url de la imagen">
+                <div class="boton__contenedor">
+                    <button class="boton__enviar" type="submit" id="boton">Enviar</button>
+                    <button class="boton__borrar" type="reset" id="boton">Limpiar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer class="footer__container">       
+       <div class="fin__footer">
+        <img src="imagenes/corazones.png" alt="" width="80px">
+           <p>Alura</p>    
+       </div>
+       <p class="autor">Desarrollado por Ana Dutli</p>
+    </footer> 
+    <script src="js/controles/main.js" type="module"></script> 
+</body>
+</html>

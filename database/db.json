@@ -1,0 +1,46 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Adornos para navidad",
+      "price": 500,
+      "image": "imagenes/adornos.png"
+    },
+    {
+      "id": "3",
+      "name": "Bolso de verano",
+      "price": 1000,
+      "image": "imagenes/bolso.png"
+    },
+    {
+      "id": "4",
+      "name": "Maquillajes",
+      "price": 1000,
+      "image": "imagenes/carrito.png"
+    },
+    {
+      "id": "5",
+      "name": "Mate",
+      "price": 400,
+      "image": "imagenes/mate.png"
+    },
+    {
+      "id": "6",
+      "name": "Smartphone",
+      "price": 50000,
+      "image": "imagenes/smartphone.png"
+    },
+    {
+      "id": "7",
+      "name": "Vajillas",
+      "price": 800,
+      "image": "imagenes/vajilla.png"
+    },
+    {
+      "id": "8",
+      "name": "Belleza",
+      "price": 200,
+      "image": "imagenes/cosmeticos.png"
+    }
+  ]
+}
