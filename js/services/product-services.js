@@ -1,6 +1,6 @@
 const productsList = async () => {
     try {
-        const res = await fetch("http://localhost:3000/products");
+        const res = await fetch("https://challege-alura-geek.vercel.app/products");
         return await res.json();
     } catch (err) {
         console.log(err);
@@ -8,7 +8,7 @@ const productsList = async () => {
 };
 
 const crearProduct = (name,price,image) =>{
-    return fetch ("http://localhost:3000/products",{
+    return fetch ("https://challege-alura-geek.vercel.app/products",{
         method:"POST",
         headers:{
             "content-Type": "application/json",
@@ -25,7 +25,7 @@ const crearProduct = (name,price,image) =>{
     
       const eliminarProduct = async(id)=>{
         try {
-            await fetch(`http://localhost:3000/products/${id}`,{
+            await fetch(`https://challege-alura-geek.vercel.app/products/${id}`,{
                 method:"DELETE",
                 headers:{
                     "content-type":"application/json"
